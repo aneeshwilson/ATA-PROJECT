@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    text-align:center;
+}
+
+h3 {
+    text-align: left;
+}
+
+form {
+    display: block;
+}
+
+label {
+    font-weight: bold;
+}
+
+textarea{
+    width: 100%;
+}
+
+input, textarea {
+    /* width: 100%; */
+    margin: 5px 0 15px 0;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.checkbox-group {
+    margin-bottom: 20px;
+}
+
+.programs {
+    margin-bottom: 20px;
+}
+
+.program h4 {
+    margin-bottom: 5px;
+}
+
+.checkbox-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.checkbox-row label {
+    width: 18%; /* Adjust width to ensure proper spacing */
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
